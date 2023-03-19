@@ -1,4 +1,4 @@
-# On-chain NFT coposing library
+# On-chain NFT composing library
 
 Building block for NFT devs.
 
