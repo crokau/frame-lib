@@ -1,4 +1,4 @@
-# Onchain Frame Lib
+# On-chain NFT coposing library
 
 This is a creative technical project to give a glimpse into the possibilities of true unstoppable interoperable NFTs.
 
