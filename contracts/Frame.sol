@@ -10,25 +10,6 @@ import "hardhat/console.sol";
 
 contract Frame {
 
-    function uint256ToString(uint256 number) internal pure returns (string memory) {
-        if (number == 0) {
-            return "0";
-        }
-        uint256 temp = number;
-        uint256 digits;
-        while (temp != 0) {
-            digits++;
-            temp /= 10;
-        }
-        bytes memory buffer = new bytes(digits);
-        while (number != 0) {
-            digits--;
-            buffer[digits] = bytes1(uint8(48 + number % 10));
-            number /= 10;
-        }
-        return string(buffer);
-    }
-
     function getTokenURI(uint256 tokenId, address nftAddress) public view returns (string memory) {
         IERC721Metadata nftContract = IERC721Metadata(nftAddress);
         
