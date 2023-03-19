@@ -1,4 +1,4 @@
-# On-chain NFT composing library
+# Frame: On-chain NFT composing library
 
 Building block for NFT devs.
 
