@@ -1,9 +1,13 @@
 # On-chain NFT coposing library
 
 Takes onchain nft outputs that look like:
-```shell "data:application/json;base64,eyJuYW1lIjogI ... " ```
+```"data:application/json;base64,eyJuYW1lIjogI ... " ```
 and gives you
-```shell <svg id="someNFT"> ... </svg ```
+```<svg id="someNFT"> ... </svg ```
+Without leaving your contract!
+
+Then you can do stuff like:
+```<svg id="composeNftIntoNewNft"> [<svg id="someNFT"> ... </svg] </svg ```
 
 This is a creative technical project to give a glimpse into the possibilities of true unstoppable interoperable NFTs.
 
