@@ -1,5 +1,7 @@
 # On-chain NFT coposing library
 
+Building block for NFT devs.
+
 Takes onchain nft outputs that look like:
 ```"data:application/json;base64,eyJuYW1lIjogI ... " ```
 and gives you
