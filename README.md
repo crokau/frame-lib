@@ -2,7 +2,7 @@
 
 Building block for NFT devs.
 
-Takes onchain nft outputs that look like:
+Takes on-chain nft contract tokenUri() outputs that look like:
 ```"data:application/json;base64,eyJuYW1lIjogI ... " ```
 and gives you
 ```<svg id="someNFT"> ... </svg ```
