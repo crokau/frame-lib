@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Onchain Frame Lib
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates usage of the onchain frame library to decode a onchain NFT and compose it into a new NFT.
+
+This is a creative technical project to give a glimpse into the possibilities of true unstoppable interoperable NFTs.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
+npm i
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
 ```
