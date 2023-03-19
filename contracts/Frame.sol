@@ -84,9 +84,9 @@ contract Frame {
 
         bytes memory newMetadata = abi.encodePacked(
             '{',
-                '"name": "fss', 
+                '"name": "Frame - composed nft', 
                 '",',
-                '"description": "ss #0",'
+                '"description": "this is a nft made up of multiple onchain nfts",'
                 '"image": ',
                     '"data:image/svg+xml;base64,',
                     Base64.encode(newNft),
